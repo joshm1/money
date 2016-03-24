@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name        = "money"
-  s.version     = "5.1.1"
+  s.version     = "5.1.2"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Tobias Luetke", "Hongli Lai", "Jeremy McNevin",
                    "Shane Emmons", "Simone Carletti"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version     = ">= 1.9.2"
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_dependency "i18n",       "~> 0.5.0"
+  s.add_dependency "i18n",       "~> 0.5"
 
   s.add_development_dependency "rspec",       "~> 2.11.0"
   s.add_development_dependency "yard",        "~> 0.8.1"
